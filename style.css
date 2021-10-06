@@ -1,11 +1,77 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color:white;
     background-color: #1F2937;
+    margin: 0;
+    width:100vh;
+    display: flex;
+    flex-direction: column;
+    color:white;
 }
 
 ul {
     list-style-type: none;
     margin:0;
     padding:0;
+    display: flex;
+    gap: 30px;
+}
+
+img {
+    background-color: red;
+}
+
+
+.header, .hero, .info, .quote, .signup, .footer {
+    padding:0 200px;
+    width:100vh;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.header > p {
+    font-size: 24px;
+    font-weight: 900;
+    margin:0;
+    padding:0;
+}
+
+.header > ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    display:flex;
+}
+
+.hero > img {
+    width:200px;
+    height: 200px;
+}
+
+.info {
+    color: #1F2937;
+    background-color:white;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.signup {
+    background-color:white;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
 }
