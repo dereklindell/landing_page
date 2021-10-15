@@ -53,6 +53,10 @@ a:link, a:visited {
     color: white;
 }
 
+a:hover {
+    color:#3882F6;
+}
+
 /* hero section */
 
 .hero {
@@ -90,6 +94,7 @@ a:link, a:visited {
     font-size: 18px;
     max-width: 400px;
     color: #E5E7EB;
+    padding: 8px 0px;
 }
 
 .hero-left button {
@@ -137,6 +142,7 @@ a:link, a:visited {
     border-radius:25px;
     height: 150px;
     width: 150px;
+    margin-bottom: 10px;
 }
 
 
@@ -166,6 +172,7 @@ a:link, a:visited {
 .author {
     text-align: end;
     font-size:24px;
+    font-weight: bold;
     margin:0;
 }
 
@@ -175,9 +182,35 @@ a:link, a:visited {
     background-color:white;
 }
 
+.modal {
+    background-color: #3882F6;
+    padding:30px 100px;
+    margin: 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-modal h4, p{
+    margin: 0;
+    padding: 0;
+}
+
+.right-modal button {
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: solid white 1px;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
 /* footer section */
 
 .footer {
     display:flex;
     justify-content: center;
+    padding: 30px;
 }
